@@ -1,38 +1,46 @@
+/* App.css */
+
+/* Centrer le contenu de l'application */
 .App {
   text-align: center;
 }
 
+/* Animation du logo */
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
 
+/* Animation du logo en rotation (si les préférences de mouvement ne sont pas réduites) */
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
 }
 
+/* Style de l'en-tête de l'application */
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-color: #282c34; /* Couleur de fond */
+  min-height: 100vh; /* Hauteur minimale équivalente à la hauteur de la vue */
+  display: flex; /* Affichage en mode flex */
+  flex-direction: column; /* Direction des éléments en colonne */
+  align-items: center; /* Centrage horizontal des éléments */
+  justify-content: center; /* Centrage vertical des éléments */
+  font-size: calc(10px + 2vmin); /* Taille de la police dynamique */
+  color: white; /* Couleur du texte */
 }
 
+/* Style des liens dans l'application */
 .App-link {
-  color: #61dafb;
+  color: #61dafb; /* Couleur des liens */
 }
 
+/* Animation de rotation du logo */
 @keyframes App-logo-spin {
   from {
-    transform: rotate(0deg);
+    transform: rotate(0deg); /* Rotation initiale */
   }
   to {
-    transform: rotate(360deg);
+    transform: rotate(360deg); /* Rotation complète (360 degrés) */
   }
 }
